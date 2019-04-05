@@ -1,125 +1,62 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page contentType="text/html;charset=utf-8" %>
+<%@ page contentType="text/html" pageEncoding="UTF-8" language="java"%>
+
 <html>
-
 <head>
-    <meta charset="UTF-8">
-
-    <title>Главная</title>
-    <link href="попыткайцсс.css" rel="stylesheet">
-
-
+    <title>Вход в систему</title>
+    <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/formstyle.css"/>
+    <link rel="stylesheet" href="resources/css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
-
-<body style="background-image: url(resources/images/back.jpg);">
-
+<body  style="background-image: url(resources/images/back.jpg);">
 <div id="page">
-
-    <h1 id="top">Необычные компьютерные приспособления</h1>
-
-
-    <h2> Интерфейс внешних устройств очень разнообразен. Данный сайт посвящен самым необычным внешним устройствам,
-        подключаемым к компьютеру. </h2>
-    <hr>
-
-
-    <ul class="dropdown">
-        <li class="dropdown-top">
-            <div class="dropdown-top">Эта информация может
-                оказаться полезной.
+<div class="container" id="center-content">
+    <div class="row main-form">
+        <h2>Авторизация</h2>
+        <form method="post" action="/login">
+            <div class="form-group">
+                <label for="login" class="cols-sm-2 control-label">Логин</label>
+                <div class="cols-sm-10">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" name="login" id="login" placeholder="Введите логин" required/>
+                    </div>
+                </div>
             </div>
-            <ul class="dropdown-inside">
-                <li><a title="Перейти на сайт обучения HTML и CSS" href="https://htmlacademy.ru/">
-                    Как научиться делать сайты, подобные этому</a></li>
-                <li><a title="Перейти на сайт о USB гаджетах"
-                       href="http://3usb.ru/">Больше о USB гаджетах</a></li>
-                <li><a title="Перейти на сайт faqukrmix.ru" href="http://faqukrmix.ru/remont/tehnika-i-tehnologii/">
-                    Если возникли проблемы с электронным устройством</a></li>
-                <!--<li></li>
-                <li></li>-->
-            </ul>
-        </li>
-    </ul>
-    <br>
+            <div class="form-group">
+                <label for="password" class="cols-sm-2 control-label">Пароль</label>
+                <div class="cols-sm-10">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                        <input type="password" class="form-control" name="password"
+                               id="password" placeholder="Введите пароль" required/>
+                    </div>
+                </div>
+            </div>
 
 
-    <!--<p class="want-menu">Эта информация может оказаться полезной.</p>
-    <div class="abc1">
-        <ul>
-            <li><a title="Перейти на сайт обучения HTML и CSS" href="https://htmlacademy.ru/">
-                Как научиться делать сайты, подобные этому</a></li>
-        </ul>
-    </div>-->
+            <div class="form-group ">
+                <input class="btn btn-lg btn-primary btn-block" type="submit" value="Вход">
+            </div>
+        </form>
+        <%if(request.getParameter("error") != null) { %>
+        <div class="alert alert-msg">
+            <h4 id="error-msg">Неверный логин или пароль</h4>
+        </div>
+        <%}%>
 
-
-    <p style="font-family: serif; font-size: 28px; color:#00aacc;">К вашему вниманию представляем топ 10 необычных
-        внешних устройств компьютера:</p>
-    <ol>
-        <li><a title="Перейти к странице о USB-вентиляторах" href="вент.html" class="want-blue">Вентилятор </a><br>
-            <p>Ясно, что их основным назначением является обдув пользователя в жаркую погоду, тем самым они приносят с
-                собой неоценимую пользу ;)</p>
-
-        </li>
-        <li><a title="Перейти к странице о
-		USB-нагревателях" href="нагр.html" class="want-blue">Нагреватель</a><br>
-            <p> Простой usb гаджет, представляющий собой подставку для кружки с напитком, которая нагревается до
-                заданной температуры.</p>
-        </li>
-        <li><a title="Перейти к странице о световом пере" href="световое-перо.html" class="want-blue">Световое
-            перо</a><br>
-            <p>Не у всякого компьютера есть подобное приспособление, которое позволяет работать с компьютером прямо
-                через монитор!</p>
-        </li>
-        <li><a title="Перейти к странице о
-		USB-светильниках" href="svet.html" class="want-blue">Светильник</a><br>
-            <p>Иногда не требуется яркий свет, достаточно освещенности клавиатуры - для этих целей подойдет usb лампа
-                для клавиатуры.</p>
-        </li>
-        <li><a title="Перейти к странице о гибкой
-		клавиатуре" href="гибкл.html" class="want-blue">Мягкая(гибкая) клавиатура</a><br>
-            <p>Клавиатура для компьютера - обычное дело! А что вы скажете о <strong>гибкой клавиатуре?</strong></p>
-        </li>
-        <li><a title="Перейти к странице об игровых
-		устройствах" href="gam.html" class="want-blue">Игровые устройства</a><br>
-            <p>Существуют сотни различных вариаций устройств для игр, и Вы наверняка не останетесь равнодушными!</p>
-        </li>
-        <li><a title="Перейти к странице о
-		графических планшетах" href="грпл.html" class="want-blue">Планшет для рисования</a><br>
-            <p>Графический планшет - незаменимое устройство для художников.</p>
-        </li>
-        <li><a title="Перейти к странице о
-		плоттерах" href="плоттер.html" class="want-blue">Плоттер</a><br>
-            <p>Рисовать графики? - Легко! Плоттер (в народе графопостроитель) - идеальное устройство для Вашего
-                компьютера!</p>
-        </li>
-        <li><a title="Перейти к странице об
-		электронных музыкальных инструментах" href="muz.html" class="want-blue">Музыкальные инструменты</a><br>
-            <p>Электро-гитары, пианино, даже барабаны - просто пойди и посмотри!</p>
-        </li>
-        <li><a title="Перейти к странице о принтерах" href="принтер.html" class="want-blue">Принтеры</a><br>
-            <p> К компьютеру можно подключить множество различных внешних устройств. Интерфейс внешних устройств очень
-                разнообразен. Принтеры — не исключение.
-                По этой ссылке Вы сможете увидеть самые разнообразные принтеры, многие из которых Вас удивят, а может
-                даже шокируют! </p>
-        </li>
-    </ol>
-
-
-    <marquee behavior="alternate" direction="left" loop="400" scrollamount="10">
-        Сайт Базаровой Анны 11б МБОУ ФМЛ №31
-    </marquee>
-
-
+    </div>
+    <script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+    <script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</div>
     <div class="leftbar-wrap">
         <a href="#page" class="left-controlbar">
             <span class="active-area">
-                <span class="bar-desc"> ^Наверх^</span>
+                <span class="bar-desc"> Наверх</span>
             </span>
         </a>
     </div>
-</div>
+    <jsp:include page="templates/footer.jsp"/></div>
 </body>
-
 </html>
-

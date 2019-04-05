@@ -4,7 +4,7 @@
 
 <head>
 
-    <title>Домашняя страница</title>
+    <title>Welcome!</title>
     <style><%@include file="resources/css/style.css" %></style>
 </head>
 
@@ -13,7 +13,7 @@
 
 <div id="page">
 
-    <h1 id="top">Здесь будет контент</h1>
+    <h1 id="top">Редактор персонажа</h1>
     <hr>
     <ul class="dropdown">
         <li class="dropdown-top">

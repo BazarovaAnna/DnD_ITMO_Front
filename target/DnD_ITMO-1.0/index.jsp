@@ -1,33 +1,30 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page contentType="text/html;charset=utf-8" %>
+<%@ page contentType="text/html" pageEncoding="UTF-8" language="java"%>
 <html>
-
 <head>
-
-    <title>Welcome!</title>
-    <style><%@include file="resources/css/style.css" %></style>
+    <title>Добро пожаловать!</title>
+    <link rel="stylesheet" href="resources/css/index.css"/>
+    <link rel="stylesheet" href="resources/css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
-
 <body style="background-image: url(resources/images/back.jpg);">
-
 <div id="page">
+    <h1 style="margin-top:10px"><a href="https://www.dungeonsanddragons.ru" class="logo">D&<span>D</span></a></h1>
+    <div class="container">
+        <div class="row center-content">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <h2>
+                    Добро пожаловать, странник!<br>
 
-    <h2 id="top">Добро Пожаловать!</h2>
-    <hr>
-    <ul class="dropdown">
-        <li class="dropdown-top">
-            <div class="dropdown-top">Выпадающий список
+                </h2>
+                <br>
+                <h2><a href="auto.jsp">Войти</a></h2>
             </div>
-            <ul class="dropdown-inside">
-                <li>Элемент1</li>
-                <li>Элемент2</li>
-                <li>Элемент3</li>
-            </ul>
-        </li>
-    </ul>
-    <br>
-
+            <div class="col-sm-2"></div>
+        </div>
+        <script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+        <script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </div>
     <marquee behavior="scroll" direction="right" loop="400" scrollamount="5">
         <img src="resources/images/dragon.gif" alt="The dragon is missing and we're trying to catch it" />
     </marquee>
@@ -40,8 +37,7 @@
             </span>
         </a>
     </div>
+        <jsp:include page="templates/footer.jsp"/>
 </div>
 </body>
-
 </html>
-

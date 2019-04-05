@@ -1,5 +1,6 @@
 <%@ page contentType="text/html" pageEncoding="UTF-8" language="java"%>
 <html>
+
 <head>
     <title>Игровое поле</title>
     <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>

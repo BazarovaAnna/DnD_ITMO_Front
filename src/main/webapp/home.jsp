@@ -101,7 +101,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="info-form">
-                                    <div id="create-new-game-form" hidden>
+                                    <div id="create-new-game-form" hidden><!--TODO-->
                                         <form id="new-game-form" action="">
                                             <div class="form-group">
                                                 <h3 class="header-form header-form-sub">Название игры</h3>

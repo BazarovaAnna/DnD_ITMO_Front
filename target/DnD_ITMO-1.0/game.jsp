@@ -1,5 +1,6 @@
 <%@ page contentType="text/html" pageEncoding="UTF-8" language="java"%>
 <html>
+
 <head>
     <title>Игровое поле</title>
     <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -10,7 +11,7 @@
 </head>
 <body style="width: 100%;background-image: url(resources/images/back.jpg);" onload="init(${param["sessionId"]}, ${param["userId"]}); ">
 
-
+<!--TODO-->
 <div class="wrapper">
     <div class="content">
         <div class="content_wrap">

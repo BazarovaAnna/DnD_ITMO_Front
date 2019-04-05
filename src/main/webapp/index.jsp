@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body style="background-image: url(resources/images/back.jpg);">
-<div id="page">
+<div id="page" style="width: 55%;">
     <h1 style="margin-top:10px"><a href="https://www.dungeonsanddragons.ru" class="logo">D&<span>D</span></a></h1>
     <div class="container">
         <div class="row center-content">

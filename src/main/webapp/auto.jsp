@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body  style="background-image: url(resources/images/back.jpg);">
-<div id="page">
+<div id="page" style="width: 55%;">
     <h1 style="margin-top:10px"><a href="index.jsp" class="logo">D&<span>D</span></a></h1>
 <div class="container" id="center-content">
     <div class="row main-form">
@@ -46,7 +46,7 @@
             <h4 id="error-msg">Неверный логин или пароль</h4>
         </div>
         <%}%>
-
+        <h3><a href="home.jsp" class="logo">Этой кнопки здесь не будет</a></h3>
     </div>
     <script src="webjars/jquery/1.9.1/jquery.min.js"></script>
     <script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>

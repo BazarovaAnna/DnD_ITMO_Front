@@ -18,8 +18,8 @@
 
                 </h2>
                 <br>
-                <h3><a href="auto.jsp">Войти</a></h3>
-                <h3><a href="reg.jsp">Регистрация</a></h3>
+                <h3><a href="auto.jsp"  class="logo">Войти</a></h3>
+                <h3><a href="reg.jsp" class="logo">Регистрация</a></h3>
             </div>
             <div class="col-sm-2"></div>
         </div>

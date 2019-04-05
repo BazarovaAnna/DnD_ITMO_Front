@@ -149,7 +149,15 @@ a.left-controlbar{
     color: #00009f;
 }
 
+a.logo{
+    text-decoration: none;
+    color:#008eab;
 
+}
+a.logo:active {
+    background: lightblue;
+    color:#1abc9c;
+}
 ul.dropdown li { position: relative; }
 ul.dropdown,
 ul.dropdown-inside {

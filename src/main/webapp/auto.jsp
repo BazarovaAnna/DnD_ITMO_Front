@@ -11,6 +11,7 @@
 </head>
 <body  style="background-image: url(resources/images/back.jpg);">
 <div id="page">
+    <h1 style="margin-top:10px"><a href="index.jsp" class="logo">D&<span>D</span></a></h1>
 <div class="container" id="center-content">
     <div class="row main-form">
         <h2>Авторизация</h2>
@@ -57,6 +58,8 @@
             </span>
         </a>
     </div>
-    <jsp:include page="templates/footer.jsp"/></div>
+    <jsp:include page="templates/footer.jsp"/>
+
+</div>
 </body>
 </html>

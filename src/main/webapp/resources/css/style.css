@@ -49,8 +49,12 @@ h1{
     font-weight:bold;
 }
 
-h2{
+h3{
+    text-align: center;
+    color:#0088cc;
     font-size: 27px;
+    font-family: MyFont1, PTSansRegular, Arial, Helvetica, sans-serif;
+    font-weight:bold;
 }
 
 li{

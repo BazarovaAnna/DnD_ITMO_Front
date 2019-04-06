@@ -138,9 +138,9 @@
                                                 </div>
                                             </div>
                                             <table width="100%"><tr>
-                                                <td width="50%"><input id="sub" type="button" class="stamp-btn1" value="Монстр/NPC"/></td>
+                                                <td width="50%"><a href="char.jsp"><input id="sub" type="button" class="stamp-btn1" value="Монстр/NPC"/></a></td>
                                                 <td rowspan="2"><input id="submit-btn" type="button" class="stamp-btn" value="Создать"/></td>
-                                                <tr><td><input id="submit" type="button" class="stamp-btn2" value="Ландшафт"/></td>
+                                                <tr><td><a href="land.jsp"><input id="submit" type="button" class="stamp-btn2" value="Ландшафт"/></a></td>
                                             </tr></table>
                                         </form>
                                     </div>

@@ -9,6 +9,15 @@
 <body style="background-image: url(resources/images/back.jpg);">
 <div id="page" style="width: 55%;">
     <h1 style="margin-top:10px"><a href="https://www.dungeonsanddragons.ru" class="logo">D&<span>D</span></a></h1>
+    <ul class="dropdown">
+        <li class="dropdown-top">
+            <div class="dropdown-top">О нас
+            </div>
+            <ul class="dropdown-inside">
+                <li><a href="nothing.jsp">Уголок разработчика</a></li>
+            </ul>
+        </li>
+    </ul>
     <div class="container">
         <div class="row center-content">
             <div class="col-sm-2"></div>

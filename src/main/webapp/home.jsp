@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body style="background-image: url(resources/images/back.jpg);">
+
+<h1 style="margin-top:10px"><a href="index.jsp" class="logo">D&<span>D</span></a></h1>
 <a name="top"></a>
 <div class="wrapper">
     <div class="content">
@@ -101,7 +103,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="info-form">
-                                    <div id="create-new-game-form" hidden><!--TODO-->
+                                    <div id="create-new-game-form"><!--TODO-->
                                         <form id="new-game-form" action="">
                                             <div class="form-group">
                                                 <h3 class="header-form header-form-sub">Название игры</h3>
@@ -122,10 +124,9 @@
                                                             <label class="number-label" style="">3</label>
                                                             <label class="number-label" style="">4</label>
                                                         </div>
+
                                                     </div>
-                                                    <div id="player-count-list">
-                                                        <i class='fa fa-user' aria-hidden='true'></i>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -136,7 +137,11 @@
                                                     </textarea>
                                                 </div>
                                             </div>
-                                            <input id="submit-btn" type="button" class="stamp-btn" value="Создать"/>
+                                            <table width="100%"><tr>
+                                                <td width="50%"><input id="sub" type="button" class="stamp-btn1" value="Монстр/NPC"/></td>
+                                                <td rowspan="2"><input id="submit-btn" type="button" class="stamp-btn" value="Создать"/></td>
+                                                <tr><td><input id="submit" type="button" class="stamp-btn2" value="Ландшафт"/></td>
+                                            </tr></table>
                                         </form>
                                     </div>
                                     <div id="gm-game-info"></div>
@@ -148,7 +153,7 @@
                                 </div>
                             </div>
                             <!--TODO-->
-                            <a href="game.jsp" class="logo">Тестовый вариант поля и я пока не знаю что происходит наверху но это кросиво</a>
+                            <a href="game.jsp" class="logo">Тестовый вариант поля</a>
                         </div>
                     </div>
                     </div></div>

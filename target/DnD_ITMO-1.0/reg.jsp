@@ -16,7 +16,7 @@
     <div class="content">
         <div class="container" id="center-content">
             <div class="row main-form">
-                <h2 >Регистрация</h2>
+                <h2 >Регистрация</h2><!--TODO-->
                 <form method="post" action="/registration">
                     <div class="form-group">
                         <label for="login" class="cols-sm-2 control-label">Логин</label>

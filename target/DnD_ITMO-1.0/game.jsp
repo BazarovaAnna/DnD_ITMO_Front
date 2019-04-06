@@ -11,7 +11,7 @@
 </head>
 <body style="width: 100%;background-image: url(resources/images/back.jpg);" onload="init(${param["sessionId"]}, ${param["userId"]}); ">
 
-<!--TODO-->
+
 <div class="wrapper">
     <div class="content">
         <div class="content_wrap">

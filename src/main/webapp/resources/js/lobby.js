@@ -571,4 +571,5 @@ function generalGameConnection(isConnectionGame) {
             "characterName": currentCharacter.name,
             "connection": isConnectionGame
         }));
+
 }

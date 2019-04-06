@@ -144,17 +144,6 @@
 }
 
 /* Форма персонажа */
-.info-form{
-    text-align: center;
-    background-color: #FFDC73;
-    color: white;
-    min-height: 950px;
-    padding: 12% 0;
-    margin: 5%;
-    box-shadow: 0 0 6em rgba(0,0,0,0.7); /* Парааметры тени */
-    border-radius: 80em 0.5em/15em 0.5em 10em;
-    background-image: url("img/panel-background.jpg");
-}
 
 #char-avatar{
     width:300px;
@@ -169,7 +158,7 @@
     cursor: pointer;
     text-shadow: 1px 1px gray,
     2px 2px powderblue;
-    color: wheat;
+    color: lightsteelblue;
 
     transition: all 1s;
 }
@@ -195,7 +184,7 @@
     cursor: pointer;
     text-shadow: 1px 1px gray,
     2px 2px powderblue;
-    color: wheat;
+    color: lightsteelblue;
 
     transition: all 1s;
 }
@@ -237,10 +226,10 @@
 
 .lobby-game-param{
     cursor: pointer;
-    color: brown;
+    color: midnightblue;
 }
 
-/* Форма игры  */
+/* Форма иы  */
 
 .game-info{
     z-index: 2;
@@ -248,7 +237,7 @@
     height: 100%;
     width: 100%;
     margin: 5%;
-    background: transparent url("img/table.png") round;
+    /*background: transparent url("img/table.png") round;*/
 }
 
 /* Слайдер для списка доступных игр */
@@ -267,7 +256,7 @@
     width: 60%;
     height: 200px;
     margin: 0 30px 30px;
-    background-image: url("./img/panel-background.jpg");
+    /*background-image: url("./img/panel-background.jpg");*/
     right: -30%;
 }
 
@@ -365,7 +354,7 @@
     border-radius: 100%;
     font-size: 24px;
     border: 0px solid;
-    background: url("./stamp.png");
+    background: url("./img/stamp.png");
     color: rgba(240, 95, 95, 1);
     background-size: 200px 200px;
     width: 200px;
@@ -376,6 +365,40 @@
     text-shadow: 1px 1px 2px black, 0 0 1em red;
     box-shadow: inset -12px -6px 4px -5px  rgba(237, 45, 45, 1);
 }
+
+.stamp-btn1{
+    border-radius: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px solid;
+    background: url("./img/pent.png");
+    color: rgba(45, 45, 237, 1);
+    background-size: 190px 190px;
+    width: 190px;
+    height: 190px;
+}
+
+.stamp-btn1:hover{
+    text-shadow: 1px 1px 2px black, 0 0 1em lightseagreen;
+    box-shadow: inset -12px -6px 4px -5px  rgba(22, 22, 233, 1);
+}
+
+.stamp-btn2{
+    border-radius: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    border: 0px solid;
+    background: url("./img/forest.png");
+    color: rgba(45, 237, 45, 1);
+    background-size: 175px 175px;
+    width: 175px;
+    height: 175px;
+}
+
+.stamp-btn2:hover{
+    text-shadow: 1px 1px 2px black, 0 0 1em forestgreen;
+    box-shadow: inset -12px -6px 4px -5px  rgba(22, 233, 22, 1);
+}2
 
 
 /* Выбор количества игроков*/

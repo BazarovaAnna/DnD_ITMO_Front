@@ -16,7 +16,7 @@
     <div class="content">
         <div class="container" id="center-content">
             <div class="row main-form">
-                <h2 >Регистрация</h2><!--TODO-->
+                <h2 >Регистрация</h2>
                 <form method="post" action="/registration">
                     <div class="form-group">
                         <label for="login" class="cols-sm-2 control-label">Логин</label>
@@ -69,7 +69,7 @@
                         </div>
                     </div>
 
-                    <sec:csrfInput />
+
                     <div class="form-group ">
                         <input class="btn btn-lg btn-primary btn-block" type="submit" value="Подтвердить">
                     </div>

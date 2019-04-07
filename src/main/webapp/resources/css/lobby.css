@@ -529,3 +529,6 @@ input[type='range']::-webkit-slider-thumb:before, input[type='range'] /deep/ #th
     float: right;
 }
 
+#loglog{
+    text-align: right;
+}

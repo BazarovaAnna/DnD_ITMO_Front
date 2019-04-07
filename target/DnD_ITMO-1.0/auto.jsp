@@ -14,7 +14,7 @@
     <h1 style="margin-top:10px"><a href="index.jsp" class="logo">D&<span>D</span></a></h1>
 <div class="container" id="center-content">
     <div class="row main-form">
-        <h2>Авторизация</h2><!--TODO-->
+        <h2>Авторизация</h2>
         <form method="post" action="/login">
             <div class="form-group">
                 <label for="login" class="cols-sm-2 control-label">Логин</label>

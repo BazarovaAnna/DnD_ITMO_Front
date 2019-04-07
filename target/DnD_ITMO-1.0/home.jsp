@@ -10,15 +10,21 @@
 </head>
 <body style="background-image: url(resources/images/back.jpg);">
 
-<h1 style="margin-top:10px"><a href="index.jsp" class="logo">D&<span>D</span></a></h1>
 <a name="top"></a>
 <div class="wrapper">
     <div class="content">
+        <h1 style="margin-top:10px">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-sm-12 col-md-8">
-                    <h1 class="character-list-header">Выбери роль!</h1>
+                    <table width="100%"><tr>
+                        <td><div id="loglog">
+                            <h1><a href="index.jsp" class="logo">D&<span>D</span></a></h1>
+                        </div></td>
+                        <td>
+                        <h1 class="character-list-header">Выбери роль!</h1></td>
+                        </tr></table>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="photobox">
@@ -42,7 +48,7 @@
                         <div id="player-form" hidden>
                             <div id="page" style="width: 100%;">
                             <h1 class="character-list-header">Я - Странник!</h1>
-                            <h3 class="character-list-header">Список доступных персонажей</h3>
+                                <h3 class="character-list-header">Список доступных персонажей <a href="char.jsp">+</a></h3>
                             <div id="character-list"></div>
                             <div class="row" id="player-form-2" hidden>
                                 <div class="col-md-6">

@@ -12,6 +12,15 @@
     <table width="100%"><tr>
         <td><h1 style="margin-top:10px"><a href="index.jsp" class="logo">D&<span>D</span></a> </h1></td>
         <td><div class="pict2"><img src="resources/images/sadcat.jpg"></div></td></tr></table>
+    <ul class="dropdown">
+        <li class="dropdown-top">
+            <div class="dropdown-top">О нас
+            </div>
+            <ul class="dropdown-inside">
+                <li><a href="nothing.jsp">Уголок разработчика</a></li>
+            </ul>
+        </li>
+    </ul>
     <div class="container">
         <div class="row center-content">
             <div class="col-sm-2"></div>

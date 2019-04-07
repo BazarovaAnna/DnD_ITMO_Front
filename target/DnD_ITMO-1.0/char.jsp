@@ -13,7 +13,7 @@
 <div id="page" style="width: 55%;">
     <!--TODO денис, сделай так, чтобы интерактивно подставлялась картинка в правый верхний угол (они есть в images/race)-->
     <!--TODO чтобы при пролистывании формы вниз картинка оставалась приклеенной к тому углу-->
-    <h1 style="margin-top:10px"><a href="index.jsp" class="logo">D&<span>D</span></a></h1>
+    <h1 style="margin-top:10px"><a href="home.jsp" class="logo">D&<span>D</span></a></h1>
     <div class="wrapper">
         <div class="content">
             <div class="container" id="center-content">
@@ -80,7 +80,7 @@
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
                                         <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
-                                               id="login" placeholder="Введите имя персонажа" required/>
+                                               id="login" placeholder="Введите значение силы" required/>
                                     </div>
                                 </div>
                             </div></td><td><div class="form-group">
@@ -89,7 +89,7 @@
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
                                         <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
-                                               id="login" placeholder="Введите имя персонажа" required/>
+                                               id="login" placeholder="Введите значение интеллекта" required/>
                                     </div>
                                 </div>
                             </div></td></tr>
@@ -99,7 +99,7 @@
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
                                         <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
-                                               id="login" placeholder="Введите имя персонажа" required/>
+                                               id="login" placeholder="Введите значение ловкости" required/>
                                     </div>
                                 </div>
                             </div></td><td><div class="form-group">
@@ -108,7 +108,7 @@
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
                                         <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
-                                               id="login" placeholder="Введите имя персонажа" required/>
+                                               id="login" placeholder="Введите значение мудрости" required/>
                                     </div>
                                 </div>
                             </div></td></tr>
@@ -118,7 +118,7 @@
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
                                         <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
-                                               id="login" placeholder="Введите имя персонажа" required/>
+                                               id="login" placeholder="Введите значение выносливости" required/>
                                     </div>
                                 </div>
                             </div></td><td><div class="form-group">
@@ -127,7 +127,7 @@
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
                                         <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
-                                               id="login" placeholder="Введите имя персонажа" required/>
+                                               id="login" placeholder="Введите значение харизмы" required/>
                                     </div>
                                 </div>
                             </div></td></tr>

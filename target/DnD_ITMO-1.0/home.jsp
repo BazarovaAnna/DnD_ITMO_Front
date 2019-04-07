@@ -144,9 +144,9 @@
                                                 </div>
                                             </div>
                                             <table width="100%"><tr>
-                                                <td width="50%"><a href="char.jsp"><input id="sub" type="button" class="stamp-btn1" value="Монстр/NPC"/></a></td>
+                                                <td width="50%"><a href="monster.jsp"><input id="sub" type="button" class="stamp-btn1" value="Монстр"/></a></td>
                                                 <td rowspan="2"><input id="submit-btn" type="button" class="stamp-btn" value="Создать"/></td>
-                                                <tr><td><a href="land.jsp"><input id="submit" type="button" class="stamp-btn2" value="Ландшафт"/></a></td>
+                                                <tr><td><a href="error.jsp"><input id="submit" type="button" class="stamp-btn2" value="Ландшафт"/></a></td>
                                             </tr></table>
                                         </form>
                                     </div>

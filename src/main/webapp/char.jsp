@@ -79,7 +79,7 @@
                                 <div class="cols-sm-10">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-                                        <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
+                                        <input type="text" class="form-control" name="login" minlength="1" maxlength="2"
                                                id="login" placeholder="Введите значение силы" required/>
                                     </div>
                                 </div>
@@ -88,7 +88,7 @@
                                 <div class="cols-sm-10">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-                                        <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
+                                        <input type="text" class="form-control" name="login" minlength="1" maxlength="2"
                                                id="login" placeholder="Введите значение интеллекта" required/>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@
                                 <div class="cols-sm-10">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-                                        <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
+                                        <input type="text" class="form-control" name="login" minlength="1" maxlength="2"
                                                id="login" placeholder="Введите значение ловкости" required/>
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@
                                 <div class="cols-sm-10">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-                                        <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
+                                        <input type="text" class="form-control" name="login" minlength="1" maxlength="2"
                                                id="login" placeholder="Введите значение мудрости" required/>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@
                                 <div class="cols-sm-10">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-                                        <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
+                                        <input type="text" class="form-control" name="login" minlength="1" maxlength="2"
                                                id="login" placeholder="Введите значение выносливости" required/>
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@
                                 <div class="cols-sm-10">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-                                        <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
+                                        <input type="text" class="form-control" name="login" minlength="1" maxlength="2"
                                                id="login" placeholder="Введите значение харизмы" required/>
                                     </div>
                                 </div>

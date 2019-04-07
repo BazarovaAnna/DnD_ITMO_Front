@@ -11,15 +11,18 @@
 </head>
 <body  style="background-image: url(resources/images/back.jpg);">
 <div id="page" style="width: 55%;">
+    <!--TODO денис, сделай так, чтобы интерактивно подставлялась картинка в правый верхний угол (они есть в images/race)-->
+    <!--TODO чтобы при пролистывании формы вниз картинка оставалась приклеенной к тому углу-->
     <h1 style="margin-top:10px"><a href="index.jsp" class="logo">D&<span>D</span></a></h1>
     <div class="wrapper">
         <div class="content">
             <div class="container" id="center-content">
                 <div class="row main-form">
-                    <h2 >Регистрация</h2><!--TODO-->
+                    <h2 >Создание Персонажа</h2><!--TODO-->
                     <form method="post" action="/makepers">
+
                         <div class="form-group">
-                            <label for="login" class="cols-sm-2 control-label">Имя</label>
+                            <label for="login" class="cols-sm-2 control-label">Имя Персонажа</label>
                             <div class="cols-sm-10">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
@@ -46,7 +49,94 @@
                             </div>
                         </div>
 
+                        <div class="form-group">
+                            <label for="race" class="cols-sm-2 control-label">Раса</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-users" aria-hidden="true"></i></span>
+                                    <label class="container-for-radio">Орк
+                                        <input type="radio" id="race" name="race" value="orc" required/>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container-for-radio">Человек
+                                        <input type="radio" id="race" name="race" value="human"/>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container-for-radio">Эльф
+                                        <input type="radio" id="race" name="race" value="elf"/>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container-for-radio">Дварф
+                                        <input type="radio" id="race" name="race" value="dwarf"/>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <table>
+                            <tr><td><div class="form-group">
+                                <label for="login" class="cols-sm-2 control-label">СИЛ</label>
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                        <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
+                                               id="login" placeholder="Введите имя персонажа" required/>
+                                    </div>
+                                </div>
+                            </div></td><td><div class="form-group">
+                                <label for="login" class="cols-sm-2 control-label">ИНТ</label>
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                        <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
+                                               id="login" placeholder="Введите имя персонажа" required/>
+                                    </div>
+                                </div>
+                            </div></td></tr>
+                            <tr><td><div class="form-group">
+                                <label for="login" class="cols-sm-2 control-label">ЛВК</label>
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                        <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
+                                               id="login" placeholder="Введите имя персонажа" required/>
+                                    </div>
+                                </div>
+                            </div></td><td><div class="form-group">
+                                <label for="login" class="cols-sm-2 control-label">МДР</label>
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                        <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
+                                               id="login" placeholder="Введите имя персонажа" required/>
+                                    </div>
+                                </div>
+                            </div></td></tr>
+                            <tr><td><div class="form-group">
+                                <label for="login" class="cols-sm-2 control-label">ВЫН</label>
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                        <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
+                                               id="login" placeholder="Введите имя персонажа" required/>
+                                    </div>
+                                </div>
+                            </div></td><td><div class="form-group">
+                                <label for="login" class="cols-sm-2 control-label">ХАР</label>
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                        <input type="text" class="form-control" name="login" minlength="4" maxlength="30"
+                                               id="login" placeholder="Введите имя персонажа" required/>
+                                    </div>
+                                </div>
+                            </div></td></tr>
+                        </table>
+                        <div class="form-group ">
 
+                            <input id="npc" type="checkbox" value="NPC">
+                            <label for="npc">NPC</label>
+                        </div>
                         <div class="form-group ">
                             <input class="btn btn-lg btn-primary btn-block" type="submit" value="Подтвердить">
                         </div>

@@ -48,7 +48,7 @@
                         <div id="player-form" hidden>
                             <div id="page" style="width: 100%;">
                             <h1 class="character-list-header">Я - Странник!</h1>
-                                <h3 class="character-list-header">Список доступных персонажей <a href="char.jsp">+</a></h3>
+                                <h3 class="character-list-header">Список доступных персонажей <a class="logo" href="char.jsp">+</a></h3>
                             <div id="character-list"></div>
                             <div class="row" id="player-form-2" hidden>
                                 <div class="col-md-6">

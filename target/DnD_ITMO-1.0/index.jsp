@@ -15,6 +15,7 @@
             </div>
             <ul class="dropdown-inside">
                 <li><a href="nothing.jsp">Уголок разработчика</a></li>
+                <li><a href="error.jsp">Ошибка</a></li>
             </ul>
         </li>
     </ul>

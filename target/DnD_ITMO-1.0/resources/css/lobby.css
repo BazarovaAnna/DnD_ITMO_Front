@@ -528,3 +528,7 @@ input[type='range']::-webkit-slider-thumb:before, input[type='range'] /deep/ #th
 #btn-back-to-game-list{
     float: right;
 }
+
+.row{
+    margin-left: 5%;
+}

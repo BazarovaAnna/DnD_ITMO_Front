@@ -41,7 +41,7 @@
                         <!-- Версия лобби для игрока -->
                         <div id="player-form" hidden>
                             <div id="page" style="width: 100%;">
-                            <h1 class="character-list-header">Буду игроком!</h1>
+                            <h1 class="character-list-header">Я - Странник!</h1>
                             <h3 class="character-list-header">Список доступных персонажей</h3>
                             <div id="character-list"></div>
                             <div class="row" id="player-form-2" hidden>
@@ -99,7 +99,7 @@
                         </div></div>
                     <!-- Версия лобби для мастера -->
                     <div id="gm-form" hidden><div id="page" style="width: 100%;">
-                        <h1 class="character-list-header">Буду мастером!</h1>
+                        <h1 class="character-list-header">Я - Мастер Подземелий!</h1>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="info-form">

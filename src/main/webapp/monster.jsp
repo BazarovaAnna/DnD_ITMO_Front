@@ -11,14 +11,13 @@
 </head>
 <body  style="background-image: url(resources/images/back.jpg);">
 <div id="page" style="width: 55%;">
-    <!--TODO денис, сделай так, чтобы интерактивно подставлялась картинка в правый верхний угол (они есть в images/race)-->
-    <!--TODO чтобы при пролистывании формы вниз картинка оставалась приклеенной к тому углу-->
+
     <h1 style="margin-top:10px"><a href="home.jsp" class="logo">D&<span>D</span></a></h1>
     <div class="wrapper">
         <div class="content">
             <div class="container" id="center-content">
                 <div class="row main-form">
-                    <h2 >Создание Монстра</h2><!--TODO-->
+                    <h2 >Создание Монстра</h2>
                     <form method="post" action="/makepers">
 
                         <div class="form-group">

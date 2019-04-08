@@ -109,7 +109,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="info-form">
-                                    <div id="create-new-game-form"><!--TODO-->
+                                    <div id="create-new-game-form">
                                         <form id="new-game-form" action="">
                                             <div class="form-group">
                                                 <h3 class="header-form header-form-sub">Название игры</h3>
@@ -158,7 +158,7 @@
                                     <div id="gm-games-slider" class="lobby-slider"></div>
                                 </div>
                             </div>
-                            <!--TODO-->
+
                             <a href="game.jsp" class="logo">Тестовый вариант поля</a>
                         </div>
                     </div>

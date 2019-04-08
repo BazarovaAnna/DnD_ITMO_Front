@@ -203,7 +203,7 @@
     </div>
 </div>
 
-<div id="shadowing" style="display: none;">
+<div id="shadowing" >
     <div id="pers_info">
         <div id="pers_info_main">
             <p></p>
@@ -245,7 +245,7 @@
     </div>
 </div>
 
-<div id="shadowing2" style="display: none;">
+<div id="shadowing2" ">
     <div id="shop_div">
         <div id="shop_header_div">
             <p class="info_header">Магазин</p>

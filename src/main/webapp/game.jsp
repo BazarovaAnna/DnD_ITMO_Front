@@ -203,7 +203,7 @@
     </div>
 </div>
 
-<div id="shadowing" style="display: none;">
+<div id="shadowing" style="display: none;"><!--TODO?-->
     <div id="pers_info">
         <div id="pers_info_main">
             <p></p>
@@ -245,7 +245,7 @@
     </div>
 </div>
 
-<div id="shadowing2" style="display: none;">
+<div id="shadowing2" style="display: none;"><!--TODO? возможно имеет смысл сделать это просто обменом между персами ну или просто убрать-->
     <div id="shop_div">
         <div id="shop_header_div">
             <p class="info_header">Магазин</p>

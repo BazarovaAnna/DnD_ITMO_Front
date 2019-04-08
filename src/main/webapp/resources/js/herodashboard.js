@@ -173,7 +173,7 @@ var $demoCont = document.querySelector(".demo-cont");
 
 [].slice.call(document.querySelectorAll(".fnc-slide__action-btn")).forEach(function($btn) {
     $btn.addEventListener("click", function() {
-        // TODO проверка на то, что открыта страница
+        // TODO dana проверка на то, что открыта страница
         if(!$(".demo-cont").hasClass("credits-active")){
             $demoCont.classList.toggle("credits-active");
         }

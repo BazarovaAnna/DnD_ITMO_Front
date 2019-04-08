@@ -283,7 +283,7 @@ function createNavbar() {
 function createInfoMenu(event) {
     hiddenAllMenu();
     $("#info-character").show();
-    // TODO остановка прокрутки изображений $slider.querySelector(".m--previous-slide").classList.remove("m--active-slide");
+    // TODO dana остановка прокрутки изображений $slider.querySelector(".m--previous-slide").classList.remove("m--active-slide");
     $("#avatar").attr("src", event.data.item.race.imgPath);
     $("#char-name").text(event.data.item.name)
     $("#char-class").text(event.data.item.userClass)
@@ -291,7 +291,7 @@ function createInfoMenu(event) {
     $("#char-sex").text(event.data.item.sex === 'm' ? "Мужчина" : "Женщина");
 }
 
-// Отрисовка меню создания нового персонажа
+// Отрисовка меню создания нового персонажа TODO а оно нам вообще не надо
 function createNewCharacterMenu() {
     hiddenAllMenu();
     $("#create-character").show();
